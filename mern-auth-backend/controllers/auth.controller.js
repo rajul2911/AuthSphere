@@ -19,7 +19,7 @@ const setAuthCookies = (res, accessToken, refreshToken, sessionId) => {
 
   const cookieOptions = {
   httpOnly: true,
-  sameSite: "strict",
+  sameSite: "none",
   secure: process.env.NODE_ENV === "production",
   path: "/",   // ⚠️ IMPORTANT
 };
@@ -63,7 +63,7 @@ const clearAuthCookies = (res) => {
   console.log("Clearing auth cookies");
   const cookieOptions = {
   httpOnly: true,
-  sameSite: "strict",
+  sameSite: "none",
   secure: process.env.NODE_ENV === "production",
   path: "/",   // ⚠️ IMPORTANT
 };

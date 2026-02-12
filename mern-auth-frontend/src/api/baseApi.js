@@ -7,7 +7,7 @@ function getCookie(name) {
 
 export const baseQuery = fetchBaseQuery({
   baseUrl: import.meta.env.MODE === "production"
-      ? "https://authsphere.onrender.com/api"
+      ? "https://authsphere.onrender.com/"
       : "http://localhost:5000/api",
   credentials: "include",
   prepareHeaders: (headers) => {
