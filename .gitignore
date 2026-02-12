@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+
+# Env files
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+mern-auth-backend/.env
+
+# Frontend env files
+mern-auth-frontend/.env
+mern-auth-frontend/.env.local
+mern-auth-frontend/.env.development
+mern-auth-frontend/.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build folders
+dist
+build
+.cache
+.parcel-cache
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage
+.nyc_output
+
+# Certificates and keys (if any)
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Vite
+.vite
+
+# Next.js / React cache
+.next
+out
+
+# Temp
+tmp
+temp
+
+# Runtime files
+pids
+*.pid
+*.seed
