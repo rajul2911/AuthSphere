@@ -82,7 +82,7 @@ git --version
 
 ```bash
 # Clone the repository
-git clone <your-repository-url>
+git clone https://github.com/rajul2911/AuthSphere.git
 
 # Navigate to project directory
 cd MERN
